@@ -1,0 +1,4 @@
+[30-Dec-2015 16:18:52 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(contents.html): failed to open stream: No such file or directory in /home/labolar/public_html/services/php-service-mail/mail.php on line 22
+[30-Dec-2015 16:22:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method PHPMailer::msgBody() in /home/labolar/public_html/services/php-service-mail/mail.php on line 30
+[30-Dec-2015 16:25:04 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/labolar/public_html/services/php-service-mail/mail.php on line 30
+[30-Dec-2015 16:26:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/labolar/public_html/services/php-service-mail/mail.php on line 30
