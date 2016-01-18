@@ -1,7 +1,7 @@
 <?php
 
 //Please set here your variable parameters
-$from = 'info@labolatorioraffo.com';
+$from = 'info@labolar.com';
 $from_name = 'Laboratorio Raffo';
 $to = 'adriang_1174@hotmail.com';
 $to_name = 'Adrian';

@@ -19,7 +19,13 @@ function createMessageFromPost($fline)
 //Create a new PHPMailer instance
 $ret = array('data'=>$_POST);
 $mail = new PHPMailer;
-$mail->isSendmail();
+$mail->IsSMTP();
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = "tls";
+$mail->Host = "smtp.mandrillapp.com";
+$mail->Port = 587;
+$mail->Username = "adriang_1174@hotmail.com";
+$mail->Password = "G4Q1_8N7pAJKuwFXkC8YVw";
 $mail->setFrom($from , $from_name);
 $mail->addAddress($to, $to_name);
 $mail->Subject = $subject;
